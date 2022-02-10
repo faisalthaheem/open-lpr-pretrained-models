@@ -18,7 +18,7 @@ To download the models, use the following urls
 ![Jeep](docs/jeep-side-1.jpg)
 
 # Training instructions
-# Instructions on how to train
+
 The following contents will assume that we are working in $HOME/work/repos which will be the root folder containing everything related to open lpr.
 > IMPORTANT: If you have a different folder structure please review the configuration files for each tool/repo for adjustments.
 
