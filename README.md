@@ -9,12 +9,12 @@ There are two models, a full precision fp32 model and a mixed prcision model. Bo
 The training was conducated using images from [SSD Pytorch repository](https://github.com/faisalthaheem/SSD-pytorch)
 
 To download the models, use the following urls
-|Model|Download link|
-|---|---|
-|fp32|https://1drv.ms/u/s!AvNYo0I9EXbwh1hpdp-r-1qENn_t?e=nKbmnB|
-|amp|https://1drv.ms/u/s!AvNYo0I9EXbwh1b3L5sMzE-c7hoc?e=cvDKyY|
+|Model|Download link|Command to download|
+|---|---|---|
+|fp32|https://1drv.ms/u/s!AvNYo0I9EXbwh1hpdp-r-1qENn_t?e=nKbmnB|wget -O ssd.pth 'https://api.onedrive.com/v1.0/shares/s!AvNYo0I9EXbwh1hpdp-r-1qENn_t/root/content'|
+|amp|https://1drv.ms/u/s!AvNYo0I9EXbwh1b3L5sMzE-c7hoc?e=cvDKyY|wget -O ssd.pth 'https://api.onedrive.com/v1.0/shares/s!AvNYo0I9EXbwh1b3L5sMzE-c7hoc/root/content'|
 
 
-![Jeep](docs/jeep-side-1.png)
+![Jeep](docs/jeep-side-1.jpg)
 
-# Instructions on how to train
+# Training instructions
