@@ -12,7 +12,7 @@ To download the models, use the following urls
 |Model|Download link|Command to download|
 |---|---|---|
 |fp32|https://1drv.ms/u/s!AvNYo0I9EXbwh1hpdp-r-1qENn_t?e=nKbmnB|wget -O ssd.pth 'https://api.onedrive.com/v1.0/shares/s!AvNYo0I9EXbwh1hpdp-r-1qENn_t/root/content'|
-|amp|https://1drv.ms/u/s!AvNYo0I9EXbwh1b3L5sMzE-c7hoc?e=cvDKyY|wget -O ssd.pth 'https://api.onedrive.com/v1.0/shares/s!AvNYo0I9EXbwh1b3L5sMzE-c7hoc/root/content'|
+|amp|https://1drv.ms/u/s!AvNYo0I9EXbwh1mFaEqZNmUjQs99|wget -O ssd.pth 'https://api.onedrive.com/v1.0/shares/s!AvNYo0I9EXbwh1mFaEqZNmUjQs99/root/content'|
 
 
 ![Jeep](docs/jeep-side-1.jpg)
