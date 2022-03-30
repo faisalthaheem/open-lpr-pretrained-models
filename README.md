@@ -56,14 +56,14 @@ We begin with extracting the train and val images from coco dataset containing v
 ```bash
 docker run --rm -it -u $UID \
 -v $PWD:/datasets \
-faisalthaheem/simanno:scripts-2.0 \
+faisalthaheem/simanno-scripts:main \
 "/usr/local/bin/python3.8 import-cat-from-coco.py -t val -c car -li 1 -af /datasets/coco/annotations/instances_val2017.json -dp /datasets/cars_from_coco -sp /datasets/coco/val2017/"
 ```
 
 ```bash
 docker run --rm -it -u $UID \
 -v $PWD:/datasets \
-faisalthaheem/simanno:scripts-2.0 \
+faisalthaheem/simanno-scripts:main \
 "/usr/local/bin/python3.8 import-cat-from-coco.py -t train -c car -li 1 -af /datasets/coco/annotations/instances_train2017.json -dp /datasets/cars_from_coco -sp /datasets/coco/train2017/"
 ```
 
@@ -100,7 +100,7 @@ EOT
 ```bash
 docker run --rm -it -u $UID \
 -v $PWD:/datasets \
-faisalthaheem/simanno:scripts-2.0 "/usr/local/bin/python3.8 /simanno/scripts/mergedbs.py -c /datasets/mergedbs.yaml"
+faisalthaheem/simanno-scripts:main "/usr/local/bin/python3.8 /simanno/scripts/mergedbs.py -c /datasets/mergedbs.yaml"
 ```
 
 ## Cloning the SSD repository
